@@ -12,7 +12,7 @@
 
 body {
     background-color: black;
-    background-image: url(assets);    
+    background-image: url(assets/red.webp);    
     background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
@@ -41,16 +41,16 @@ nav {
 }
 
 a {
-  color: rgb(250, 243, 243);
+  color: rgb(248, 235, 235);
   text-decoration: none;
-  text-decoration-color: rgb(241, 13, 13);
+  text-decoration-color: rgb(107, 3, 3);
 }
 
 a:hover {
-  color: rgb(252, 243, 243);
+  color: rgb(96, 92, 92);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(237, 12, 12);
+  text-decoration-color: rgb(98, 3, 3);
 }
 
 /* Hamburger Menu */
@@ -157,7 +157,7 @@ section {
 }
 
 .section__text img{
-    padding-left: 150%;
+    padding-left: 120%;
     height: 300px;
     width: 40%;
     margin-bottom: 10px;
@@ -213,7 +213,7 @@ section {
     width: 40px;
     height: 40px;
     text-decoration: none;
-    border: 2px solid #69c3e4;
+    border: 2px solid #860404;
     border-radius: 100%;
     align-items: center;
     justify-content: center;
@@ -223,8 +223,8 @@ section {
   }
 .social-container a:hover{
     transform: scale(1.1);
-    background-color: rgb(36, 36, 36);
-    color: #69c3e4;
+    background-color: rgb(215, 206, 206);
+    color: #b20f1a;
     transition: ease.5s;
   }
 
@@ -255,7 +255,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(87, 5, 5) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -265,12 +265,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: transparent;
   color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb(237, 234, 234);
+  background: rgb(126, 112, 112);
 }
 
 .btn-color-2 {
@@ -279,7 +279,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+    background: rgb(126, 112, 112);
 }
 
 .btn-container {
@@ -290,6 +290,7 @@ section {
 
 #about {
   position: relative;
+  padding-top: 10rem;
 }
 
 .about-containers {
@@ -301,6 +302,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  color: white;
 }
 
 .about-containers,
