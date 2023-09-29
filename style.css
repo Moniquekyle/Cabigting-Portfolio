@@ -195,12 +195,6 @@ section {
   color: white;
 }
 
-.title {
-  font-size: 3rem;
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
-}
 
 .social-container{
   padding: 2rem;
@@ -322,24 +316,36 @@ border: rgb(87, 5, 5) 0.1rem solid;
   bottom: 2.5rem;
 }
 
-/**************************** Experience Section */
+/**************************** Skills Section */
 
-#experience {
+#skills {
+  justify-content: left;
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(241, 237, 237);
-  font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  padding: 6rem;
+  justify-content: center;
+}
+.skills-sub-title span{
+  color: red;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .title span{
+  justify-content: left;
   color:red;
 }
-.experience-details-container {
+
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
