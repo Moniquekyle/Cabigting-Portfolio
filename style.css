@@ -12,7 +12,6 @@
 
 body {
     background-color: black;
-    background-image: url(assets/red.webp);    
     background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
@@ -174,7 +173,7 @@ section {
   }
 
 .section__text {
-  align-self: left;
+  padding-top: 10rem;
   text-align: left;
   color: white;
 }
@@ -188,7 +187,9 @@ section {
   text-align: center;
   color: white;
 }
-
+.text_about {
+    color:white
+}
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
