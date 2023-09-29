@@ -52,7 +52,7 @@ a:hover {
   text-decoration-color: rgb(98, 3, 3);
 }
 
-/* Hamburger Menu */
+/********** Hamburger Menu */
 
 #hamburger-nav {
   display: none;
@@ -146,12 +146,12 @@ section {
   display: flex;
 }
 
-/* Profile Section */
+/*************************** Profile Section */
 
 #profile {
   display: flex;
   justify-content: left;
-  gap: 5rem;
+  gap: 1rem;
   height: 100vh;
 }
 
@@ -165,15 +165,15 @@ section {
 .header-text h1{
     text-align: left;
     color: white;
-    font-size: 60px;
+    font-size: 70px;
   }
 
-  .header-text h1 span{
+.header-text h1 span{
     color: red;
   }
 
 .section__text {
-  padding-top: 10rem;
+  padding-top: 5rem;
   text-align: left;
   color: white;
 }
@@ -229,7 +229,7 @@ section {
     transition: ease.5s;
   }
 
-/*Icon*/
+/****************************Icon*/
 
 .icon {
   cursor: pointer;
@@ -238,7 +238,7 @@ section {
   border-radius: 3rem;
 }
 
-/* Buttons */
+/******************* Buttons */
 
 .btn-container {
   display: flex;
@@ -287,13 +287,22 @@ section {
   gap: 1rem;
 }
 
-/* About Section */
+/******************** about ***********************/
 
 #about {
   position: relative;
-  padding-top: 10rem;
+  padding-top: 4%;
 }
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+.about-col-1{
+  color: white;
+  flex-basis: 60%;
 
+}
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -313,6 +322,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  
 }
 
 .details-container {
@@ -331,7 +341,7 @@ section {
 }
 
 .section__pic-container img{
-  height: 300px;
+  height: 500px;
   width: auto;
   margin: auto 20;
   border-radius: 10%;
@@ -343,7 +353,7 @@ section {
   bottom: 2.5rem;
 }
 
-/* Experience Section */
+/**************************** Experience Section */
 
 #experience {
   position: relative;
@@ -382,7 +392,7 @@ article .icon {
   position: default;
 }
 
-/* Projects Section */
+/********************** Projects Section */
 
 #projects {
   position: relative;
@@ -409,7 +419,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-/* Contact Section */
+/****************** Contact Section */
 #contact {
   display: flex;
   justify-content: center;
@@ -448,7 +458,7 @@ article .icon {
   height: 2.5rem;
 }
 
-/* Footer */
+/************** Footer */
 
 footer {
   height: 26vh;
