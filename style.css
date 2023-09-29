@@ -288,7 +288,7 @@ border: rgb(87, 5, 5) 0.1rem solid;
 
 #about {
   position: relative;
-  padding-top: 4%;
+  padding-top: 1rem;
 }
 .row{
   display: flex;
@@ -302,7 +302,7 @@ border: rgb(87, 5, 5) 0.1rem solid;
 
 }
 .sub-about{
-  height: 100px;
+  height: 3rem;
   font-size: 45px;
   font-weight: 600;
 }
