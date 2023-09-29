@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -18,9 +18,9 @@
     display: flex;
   }
 
-  #skills,
-  .skills-details-container {
-    margin-top: 10rem;
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
   }
 
   #profile,
@@ -50,9 +50,6 @@
   .about-containers {
     margin-top: 0;
   }
- .title{
-  justify-content: left;
-}
 }
 
 @media screen and (max-width: 600px) {
@@ -90,11 +87,9 @@
     font-size: 1rem;
   }
 
-  .skills-sub-title {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+  .experience-sub-title {
+    font-size: 1.25rem;
   }
-  
 
   .logo {
     font-size: 1.5rem;
@@ -117,7 +112,7 @@
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .text-container {
