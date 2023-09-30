@@ -7,6 +7,8 @@
   .about-containers {
     flex-wrap: wrap;
   }
+
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -45,10 +47,6 @@
     margin: 0 6%;
   }
 
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
   }
 
   .about-containers {
@@ -68,7 +66,7 @@
   .skill-containers{
     margin-top: 0;
   }
-}
+
 
 @media screen and (max-width: 600px) {
  section{
