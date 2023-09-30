@@ -18,8 +18,12 @@
     display: flex;
   }
 
-  #experience,
-  .experience-details-container {
+  .logo{
+    font-size: 1.2rem;
+  }
+
+  #skills,
+  .skills-details-container {
     margin-top: 2rem;
   }
 
@@ -50,9 +54,23 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .header-text h1{
+    text-align: left;
+    color: white;
+    font-size: 50px;
+  }
+
+  .details-container{
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 600px) {
+ section{
+min-height: fit-content;
+ }
+ 
   #contact,
   footer {
     height: 40vh;
@@ -92,7 +110,7 @@
   }
 
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .nav-links {
@@ -118,4 +136,7 @@
   .text-container {
     text-align: justify;
   }
+}
+.details-container{
+  margin-top: 150px;
 }
