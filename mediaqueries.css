@@ -28,7 +28,18 @@
   .skills-details-container {
     margin-top: 2rem;
   }
-
+  .title h1{
+    text-align: left;
+    color: white;
+    font-size: 50px;
+  }
+  .skills, title h1 {
+    position: relative;
+    top: -320px;
+    color: black;
+    font-family: 'serif';
+    margin-left: 24px;
+  }
   #profile,
   .section-container {
     display: block;
@@ -123,7 +134,7 @@ min-height: fit-content;
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 100vw;
     justify-content: center;
   }
 
@@ -132,7 +143,7 @@ min-height: fit-content;
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .text-container {
@@ -140,6 +151,6 @@ min-height: fit-content;
   }
 
   .details-container{
-    margin-top: 200px;
+    margin-top: 10px;
   }
 }
