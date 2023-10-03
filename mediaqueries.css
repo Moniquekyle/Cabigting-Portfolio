@@ -86,11 +86,10 @@ min-height: fit-content;
  
   #contact,
   footer {
-    height: 40vh;
+    height: 60vh;
   }
 
   .container{
-    margin-top: 0;
     min-height: fit-content;
   }
 
