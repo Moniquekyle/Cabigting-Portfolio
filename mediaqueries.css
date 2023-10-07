@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -11,7 +12,7 @@
   
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   #desktop-nav {
     display: none;
   }
@@ -55,7 +56,7 @@
   }
 
   section {
-    margin: 0 6%;
+    margin: 4%;
   }
 
   }
@@ -77,8 +78,14 @@
   .skill-containers{
     margin-top: 0;
   }
-
-
+  @media screen and (max-width: 800px) {
+    section{
+      #about
+  .menu-links{
+    justify-content: center;
+  }
+    }
+  }
 @media screen and (max-width: 600px) {
  section{
 min-height: fit-content;
@@ -160,4 +167,39 @@ min-height: fit-content;
   .details-container{
     margin-top: 10px;
   }
+  .social-container{
+    padding: 2rem;
+    align-items: left;
+    justify-content: left;
+    margin-top: 10px;
+    }
+  
+  .social-container a{
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+      border: 2px solid #860404;
+      border-radius: 100%;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: #b6b6b6;
+      margin: 5px 5px;
+    }
+  .social-container a:hover{
+      transform: scale(1.1);
+      background-color: rgb(215, 206, 206);
+      color: #b20f1a;
+      transition: ease.5s;
+    }
+  /* Skills */
+  
+    /* Project */
+    .article-container img{
+      height: 150px;
+      width: auto;
+      border-radius: 10%;
+    }
+  
 }
