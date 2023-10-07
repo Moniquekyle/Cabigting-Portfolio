@@ -958,7 +958,7 @@ input[type=submit]:hover {
 .social-ending{
   color: white;
   margin-top:10px;
-  justify-content:center;
+  padding-left: 25rem;
 }
 
 /************************ Footer ************************/

@@ -153,7 +153,10 @@ min-height: fit-content;
   .text-container {
     text-align: justify;
   }
-
+  .social-ending{
+    padding-top: 10rem;
+    
+  }
   .details-container{
     margin-top: 10px;
   }
