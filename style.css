@@ -964,6 +964,8 @@ input[type=submit] {
   border: 2px solid #860404;
   color:white;
   margin:auto;
+  width: 100px;
+  font-size: 1.2rem;
 }
 
  
@@ -977,6 +979,7 @@ input[type=submit]:hover {
   border: 2px solid #860404;
   padding: 50px;
   margin: 5px;
+  
 }
 
 /************************ Footer ************************/
