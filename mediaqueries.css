@@ -31,7 +31,7 @@
   }
   .title h1{
     text-align: left;
-    color: white;
+    color: rgb(29, 29, 29);
     font-size: 50px;
   }
   .skills, title h1 {
@@ -67,7 +67,7 @@
 
   .header-text h1{
     text-align: left;
-    color: white;
+    color: rgb(13, 13, 13);
     font-size: 60px;
   }
 
@@ -83,10 +83,7 @@
 min-height: fit-content;
  }
  
-  #contact,
-  footer {
-    height: 60vh;
-  }
+  #contact
 
   .container{
     min-height: fit-content;
@@ -176,7 +173,7 @@ min-height: fit-content;
       align-items: center;
       justify-content: center;
       font-size: 28px;
-      color: #b6b6b6;
+      color: #0f0f0f;
       margin: 5px 5px;
     }
   .social-container a:hover{
@@ -185,7 +182,6 @@ min-height: fit-content;
       color: #b20f1a;
       transition: ease.5s;
     }
-  /* Skills */
   
     /* Project */
     .proj-contain {
@@ -203,6 +199,14 @@ min-height: fit-content;
     .proj-imgBx img {
       width: 215px;
       height: 215px;
+    }
+
+    .footer{
+      height: 30vh;
+    }
+
+    .footer p{
+      text-align: center;
     }
   
 }
