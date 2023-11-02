@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -71,9 +71,6 @@
     font-size: 60px;
   }
 
-  .details-container{
-    margin-top: 100px;
-  }
 
   .skill-containers{
     margin-top: 0;
@@ -83,6 +80,10 @@
 min-height: fit-content;
  }
  
+ #about{
+  min-height: fit-content;
+ }
+
   #contact
 
   .container{
@@ -100,7 +101,7 @@ min-height: fit-content;
 
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -185,14 +186,16 @@ min-height: fit-content;
   
     /* Project */
     .proj-contain {
-      margin-top: 50px;
-      padding: 10px 0;
+      margin-top: 100px;   
     }
   
     .proj-card {
       margin: 40px 25px;
       padding: 20px 15px;
       align-items: center;
+    }
+    .details-container{
+      margin-top: 100px;
     }
   
     .proj-imgBx,
