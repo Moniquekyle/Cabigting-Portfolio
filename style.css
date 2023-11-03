@@ -680,12 +680,6 @@ border: rgb(87, 5, 5) 0.1rem solid;
 .sub-about span{
   color:red
 }
-.section__pic-container img{
-  border: 4px solid #cb0a0a;
-  height: 400px;
-  width: auto;
-  border-radius: 10%;
-}
 
 .details-container{
   flex: 1;
@@ -714,6 +708,7 @@ border: rgb(87, 5, 5) 0.1rem solid;
 }
 section.card {
   border-radius: 24px 24px 24px 24px;
+  background-color: rgb(101, 150, 240);
   padding: 0;
   min-width: 40px;
   height: 400px;
@@ -811,14 +806,14 @@ article .icon {
   max-width: 300px;
   height: 200px;
   position: relative;
-  background: gray;
+  background: rgb(91, 159, 232);
   margin: 40px 60px;
   padding: 60px 15px;
   display: flex;
   flex-direction: column;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(to right, rgb(147, 5, 7), transparent, transparent, transparent, transparent, transparent, rgb(147, 5, 7));
+  border-image: linear-gradient(to right, rgb(20, 20, 20), transparent, transparent, transparent, transparent, transparent, rgb(33, 32, 32));
   border-image-slice: 1;
   border-image-width: 1;
   border-image-outset: 0;
@@ -850,7 +845,7 @@ article .icon {
   margin-top: -140px;
   padding: 10px 15px;
   text-align: center;
-  color: #4c4949;
+  color: #b3adad;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;

@@ -161,6 +161,7 @@ min-height: fit-content;
     align-items: left;
     justify-content: left;
     margin-top: 10px;
+    margin-left: 1em;
     }
   
   .social-container a{
