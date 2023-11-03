@@ -689,12 +689,12 @@ border: rgb(87, 5, 5) 0.1rem solid;
 
 .details-container{
   flex: 1;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
 .about-detail-container{
-  justify-content: center;
+  justify-content: left;
   flex-direction: wrap;
 }
 .about-containers{
@@ -711,6 +711,32 @@ border: rgb(87, 5, 5) 0.1rem solid;
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+section.card {
+  border-radius: 24px 24px 24px 24px;
+  padding: 0;
+  min-width: 40px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  position: relative;
+  box-shadow: 5px 0 0 0 rgba(150, 149, 149, 0.3),
+    -5px 0 0 0 rgba(28, 28, 28, 0.3), 0 5px 0 0 rgba(16, 16, 16, 0.3);
+}
+
+section.card .text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+section.card .text-content h1 {
+  padding-top: 2rem;
+  color: #fdf8f8;
+  font-weight: bold;
+  font-size: 2.3rem;
+  letter-spacing: 7px;
+  cursor: pointer;
 }
 
 /************************** Skills ******************/
@@ -902,7 +928,7 @@ article .icon {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .form-row textarea {
@@ -910,7 +936,7 @@ article .icon {
 }
 
 .form-row button {
-    width: 100%;
+    width: 20%;
     padding: 10px;
     border: none;
     border-radius: 5px;
